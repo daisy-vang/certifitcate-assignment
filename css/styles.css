@@ -1,0 +1,26 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    z-index: -1;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-bord {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.top-bord {
+    justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+.pics {
+    height: 350; width: 400;
+}

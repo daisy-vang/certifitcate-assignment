@@ -1,0 +1,13 @@
+.dis-land {
+    border: 30px solid black;
+}
+
+.dl {
+    background-color: #D9D9D9;
+    opacity: 70%;
+}
+
+.dl-img {
+    z-index: -1;
+    background-color: #D9D9D9;
+}
