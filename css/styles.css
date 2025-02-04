@@ -12,11 +12,13 @@ main {
 }
 
 .bottom-bord {
+    display: flex;
     justify-content: flex-end;
     align-items: flex-end;
 }
 
 .top-bord {
+    display: flex;
     justify-content: flex-start;
     justify-content: flex-start;
 }
