@@ -3,13 +3,16 @@
     padding: 0;
 }
 
+.back {
+    position: absolute;
+}
+
 body {
-    background-color: white;
+    background-color: #010D5F;
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
-    width: 93.5%; height: auto;
-    border: 65px solid #010D5F;
+    width: 100%; height: auto;
     z-index: -2;
 }
 
@@ -33,15 +36,4 @@ h1, h2, p {
 section {
     display: flex;
     z-index: -1;
-    margin: 0%;
-    padding: 0%;
-}
-
-
-.bottom-des, .bottom-bord {
-    justify-content: flex-end;
-}
-
-.bottom-bord {
-    align-items: flex-end;
 }
