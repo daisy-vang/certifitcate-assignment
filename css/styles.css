@@ -32,6 +32,6 @@ p {
    width: 40%; top: 50%;
 }
 
-h1, h2, p {
+h1, p {
     position: absolute;
 }
