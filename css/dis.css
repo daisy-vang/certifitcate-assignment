@@ -4,31 +4,95 @@
 }
 
 body {
-    width: 100%; height: 50%;
     background-color: black;
     font-family: 'Times New Roman', Times, serif;
-    z-index: -2;
-    color: white;
+    color: black;
+}
+
+.main {
+    position: relative;
+    text-align: center;
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 100px;
+    left: 24%; top: 27%;
+}
+
+.h-2 {
+    font-size: 90px;
+    left: 37%; top: 38%;
 }
 
 h2 {
     font-size: 60px;
+    left: 38%; top: 66%;
 }
 
 p {
    font-size: 35px; 
+   left: 25%; top: 75%;
+   width: 50%;
+   text-align: center;
+}
+
+.giv {
+    top: 100%; left: -5%;
+}
+
+.duv {
+    top: 100%; left: 40%;
 }
 
 h1, h2, p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
 }
 
 .ring {
-    left: 5%; top: 10%;
+    position: absolute;
+    left: 10%; top: 23%;
+}
+
+.rose {
+    position: absolute;
+    right: 0%; bottom: -25%;
+}
+
+.meda {
+    position: absolute;
+    top: 1%; right: 1%;
+}
+
+.ne {
+    position: absolute;
+    font-size: 50px;
+    background-color: rgb(147, 50, 50);
+    color: white;
+    cursor: pointer;
+    border: none;
+    top: 52%; right: 2%;
+    padding-left: 1%; padding-right: 1%;
+    border-radius: 50%;
+}
+
+.ne:hover, .be:hover {
+    background-color: rgb(100, 33, 33);
+}
+
+.be {
+    position: absolute;
+    font-size: 50px;
+    background-color: rgb(147, 50, 50);
+    color: white;
+    cursor: pointer;
+    border: none;
+    top: 52%; left: 2%;
+    padding-left: 1%; padding-right: 1%;
+    border-radius: 50%;
+}
+
+@media print {
+    @page {
+        size: 8 1/2 x 11 landscape;
+    }
 }

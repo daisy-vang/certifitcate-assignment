@@ -17,12 +17,12 @@ body {
 
 h1 {
     font-size: 70px;
-    left: 20%; top: 20%;
+    left: 30%; top: 20%;
 }
 
 h2 {
     font-size: 60px;
-    left: 40%; top: 63%;
+    left: 42%; top: 65%;
 }
 
 p {
@@ -33,9 +33,72 @@ p {
 }
 
 .giv {
-    top: 95%;
+    top: 95%; left: 0%;
+}
+
+.duv {
+    top: 95%; left: 50%;
 }
 
 h1, h2, p {
     position: absolute;
+}
+
+.bl {
+    position: absolute;
+    left: 0%; top: 75%;
+}
+
+.br {
+    position: absolute;
+    top: 75%; right: 1.4%;
+}
+
+.tl {
+    position: absolute;
+    top: 1%; left: 0.5%;
+}
+
+.tr {
+    position: absolute;
+    top: 0%; right: 0%;
+}
+
+.meda {
+    position: absolute;
+    top: 30%; left: 44%;
+}
+
+.ne {
+    position: absolute;
+    font-size: 50px;
+    background-color: rgb(165, 190, 213);
+    color: white;
+    cursor: pointer;
+    border: none;
+    top: 52%; right: 2%;
+    padding-left: 1%; padding-right: 1%;
+    border-radius: 50%;
+}
+
+.ne:hover, .be:hover {
+    background-color: rgb(126, 170, 198);
+}
+
+.be {
+    position: absolute;
+    font-size: 50px;
+    background-color: rgb(165, 190, 213);
+    color: white;
+    cursor: pointer;
+    border: none;
+    top: 52%; left: 2%;
+    padding-left: 1%; padding-right: 1%;
+    border-radius: 50%;
+}
+
+@media print {
+    @page {
+        size: 8 1/2 x 11 landscape;
+    }
 }
