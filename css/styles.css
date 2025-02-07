@@ -29,7 +29,6 @@ p {
 
 h1, h2, p {
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-self: center;
+    top: 45%;
+    right: 3%;
 }
