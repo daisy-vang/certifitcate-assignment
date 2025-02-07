@@ -10,6 +10,11 @@ body {
     flex-direction: column;
 }
 
+.main {
+    position: relative;
+    text-align: center;
+}
+
 h1 {
     font-size: 70px;
 }
@@ -23,12 +28,8 @@ p {
 }
 
 h1, h2, p {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-self: center;
-}
-
-.back {
-    position: relative;
-    text-align: center;
 }
