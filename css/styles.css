@@ -32,6 +32,10 @@ p {
    text-align: center;
 }
 
+.giv {
+    left: 10%; top: 95%;
+}
+
 h1, h2, p {
     position: absolute;
 }
