@@ -17,6 +17,7 @@ body {
 
 h1 {
     font-size: 70px;
+    left: 12%; top: 10%;
 }
 
 h2 {
@@ -29,6 +30,4 @@ p {
 
 h1, h2, p {
     position: absolute;
-    top: 45%;
-    right: 3%;
 }
