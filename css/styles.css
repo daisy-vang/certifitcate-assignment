@@ -22,16 +22,14 @@ h1 {
 
 h2 {
     font-size: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    left: 25%; top: 45%;
 }
 
 p {
    font-size: 35px; 
-   width: 40%; top: 50%;
+   left: 40%; top: 50%;
 }
 
-h1, p {
+h1, h2, p {
     position: absolute;
 }
