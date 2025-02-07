@@ -27,3 +27,7 @@ h1, h2, p {
     justify-content: center;
     align-self: center;
 }
+
+.rectangle {
+    height: 75%; width: 75%;
+}
