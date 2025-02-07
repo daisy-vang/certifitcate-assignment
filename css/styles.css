@@ -28,7 +28,7 @@ h1, h2, p {
     align-self: center;
 }
 
-.rectangle {
-    height: 75%; width: 75%;
-    background-color: white;
+.back {
+    position: relative;
+    text-align: center;
 }
