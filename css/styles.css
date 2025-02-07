@@ -4,6 +4,7 @@
 }
 
 body {
+    position: ;
     background-color: #010D5F;
     font-family: 'Times New Roman', Times, serif;
     display: flex;
@@ -25,6 +26,5 @@ p {
 h1, h2, p {
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-self: center;
 }
